@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum Chetado - Iker Castro González</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800;900&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .font-mono-code { font-family: 'Fira Code', monospace; }
+        .font-jakarta { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col">
+
+    <!-- BARRA SUPERIOR DE CONTROL -->
+    <header class="bg-slate-900 border-b border-slate-800 sticky top-0 z-50 px-4 py-3">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-gradient-to-tr from-indigo-500 to-pink-500 rounded-lg flex items-center justify-center font-black text-xl shadow-lg">
+                    ⚡
+                </div>
+                <div>
+                    <h1 class="font-extrabold text-lg text-white leading-none">Mi Currículum Chetado</h1>
+                    <span class="text-xs text-slate-400">Selecciona o compara los 2 resultados</span>
+                </div>
+            </div>
+
+            <!-- Etiqueta de Modelo Único -->
+            <div class="flex items-center bg-slate-950 px-3 py-1.5 rounded-xl border border-slate-800 text-xs sm:text-sm font-semibold text-emerald-400">
+                <i class="fa-solid fa-briefcase mr-1.5"></i> Modelo 2: Executive Pro
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL DE RESULTADOS -->
+    <main class="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8">
+
+        <div id="cv-grid" class="max-w-2xl mx-auto w-full">
+
+            <!-- ================= MODELO 2: EJECUTIVO PRO / ELEGANTE ================= -->
+            <div id="card-v2" class="bg-white text-slate-900 rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-2xl relative overflow-hidden transition-all">
+
+
+                <!-- Header CV 2 -->
+                <div class="flex flex-col sm:flex-row items-center gap-5 text-center sm:text-left mb-6">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=300&h=300&fit=crop&crop=faces" alt="Avatar de Iker" class="w-24 h-24 rounded-full object-cover border-4 border-emerald-500 shadow-md">
+                        <span class="absolute bottom-0 right-0 bg-emerald-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full border border-white">15 Años</span>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-black text-slate-900 font-jakarta">Iker Castro González</h2>
+                        <p class="text-emerald-700 font-semibold text-sm">Estudiante de Informática en 4º de la ESO</p>
+                    </div>
+                </div>
+
+                <!-- SECCIÓN 1: INFORMACIÓN PERSONAL Y DE CONTACTO -->
+                <div class="mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                    <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Información Personal</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+                        <div>
+                            <span class="block text-slate-400 font-semibold uppercase text-[10px]">Correo Electrónico</span>
+                            <span class="text-slate-800 font-medium"><i class="fa-solid fa-envelope text-emerald-600 mr-1.5"></i> iker.castro@email.com</span>
+                        </div>
+                        <div>
+                            <span class="block text-slate-400 font-semibold uppercase text-[10px]">Teléfono</span>
+                            <span class="text-slate-800 font-medium"><i class="fa-solid fa-phone text-emerald-600 mr-1.5"></i> +34 600 000 000</span>
+                        </div>
+                        <div>
+                            <span class="block text-slate-400 font-semibold uppercase text-[10px]">Ubicación</span>
+                            <span class="text-slate-800 font-medium"><i class="fa-solid fa-location-dot text-emerald-600 mr-1.5"></i> España</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECCIÓN: DISPONIBILIDAD GEOGRÁFICA -->
+                <div class="mb-6 bg-emerald-50 p-4 rounded-2xl border border-emerald-200">
+                    <h3 class="text-xs font-bold text-emerald-800 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                        <i class="fa-solid fa-map-location-dot text-emerald-600"></i> Disponibilidad Geográfica
+                    </h3>
+                    <p class="text-xs text-emerald-900 font-semibold flex items-center gap-2">
+                        <span class="w-2.5 h-2.5 bg-emerald-500 rounded-full animate-pulse"></span>
+                        Disponible para trabajar en cualquier parte de España (Presencial / Remoto / Reubicación).
+                    </p>
+                </div>
+
+                <!-- SECCIÓN: SOBRE MÍ -->
+                <div class="mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                    <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Sobre mí</h3>
+                    <p class="text-xs text-slate-700 leading-relaxed font-medium">
+                        Estudiante apasionado por la tecnología, el desarrollo de software y la informática en general. Con gran curiosidad por aprender nuevos lenguajes de programación y resolver problemas mediante código con iniciativa y ganas de aportar valor.
+                    </p>
+                </div>
+
+                <!-- SECCIÓN: HABILIDADES -->
+                <div class="mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                    <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Habilidades</h3>
+                    <ul class="space-y-2 text-xs text-slate-700 font-medium">
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-code text-emerald-600 text-sm"></i>
+                            <span><strong>Programación y Web:</strong> HTML5, CSS3, JavaScript básico y lógica de programación.</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-laptop-code text-emerald-600 text-sm"></i>
+                            <span><strong>Sistemas y Software:</strong> Manejo de Windows/Linux, herramientas ofimáticas y Git/GitHub.</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-screwdriver-wrench text-emerald-600 text-sm"></i>
+                            <span><strong>Hardware y Redes:</strong> Montaje/Mantenimiento básico de equipos y conceptos clave de redes.</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-lightbulb text-emerald-600 text-sm"></i>
+                            <span><strong>Competencias Personales:</strong> Pensamiento analítico, trabajo en equipo, rápida capacidad de aprendizaje y resolución de problemas.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- SECCIÓN: IDIOMAS -->
+                <div class="mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                    <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Idiomas</h3>
+                    <ul class="space-y-2 text-xs text-slate-700 font-medium">
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-globe text-emerald-600 text-sm"></i>
+                            <span><strong>Español:</strong> Nativo</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-globe text-emerald-600 text-sm"></i>
+                            <span><strong>Inglés:</strong> Nivel intermedio / Bilingüe en curso</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- SECCIÓN: FORMACIÓN ACADÉMICA -->
+                <div class="mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                    <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Formación Académica</h3>
+                    <div class="space-y-3 text-xs text-slate-700">
+                        <div class="border-l-2 border-emerald-500 pl-3">
+                            <h4 class="font-bold text-slate-900">Educación Secundaria Obligatoria (4º ESO)</h4>
+                            <p class="text-slate-500">IES / Colegio Local • Cursando actualmente con enfoque científico-técnológico.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECCIÓN: PROYECTOS DESTACADOS -->
+                <div class="mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                    <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Proyectos Destacados</h3>
+                    <div class="space-y-3 text-xs text-slate-700">
+                        <div>
+                            <div class="flex justify-between font-bold text-slate-900 mb-0.5">
+                                <span>Página Web Personal Interactiva</span>
+                                <span class="text-emerald-700 font-normal">HTML/CSS/JS</span>
+                            </div>
+                            <p class="text-slate-600">Desarrollo de portafolio web moderno y responsive con animaciones y diseño adaptable.</p>
+                        </div>
+                        <div>
+                            <div class="flex justify-between font-bold text-slate-900 mb-0.5">
+                                <span>Simulador de Utilidades en Consola</span>
+                                <span class="text-emerald-700 font-normal">Python</span>
+                            </div>
+                            <p class="text-slate-600">Creación de scripts orientados a la automatización de tareas sencillas y resolución de retos lógicos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECCIÓN: INTERESES Y HOBBIES -->
+                <div class="mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                    <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Intereses & Aficiones</h3>
+                    <div class="flex flex-wrap gap-2 text-xs">
+                        <span class="px-3 py-1.5 bg-blue-50 text-blue-900 border border-blue-200 rounded-xl font-semibold flex items-center gap-1.5">
+                            <i class="fa-solid fa-plane-departure text-blue-600"></i> Viajar por el Mundo
+                        </span>
+                        <a href="https://www.fcbarcelona.es" target="_blank" class="px-3 py-1.5 bg-gradient-to-r from-blue-900 via-red-700 to-blue-900 hover:opacity-90 text-amber-300 border border-red-800 rounded-xl font-bold flex items-center gap-1.5 shadow transition-all">
+                            <i class="fa-solid fa-shield-halved text-amber-300"></i> FC Barcelona (Web Oficial) <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-0.5"></i>
+                        </a>
+                        <a href="https://www.formula1.com" target="_blank" class="px-3 py-1.5 bg-red-600 hover:bg-red-700 text-white border border-red-700 rounded-xl font-bold flex items-center gap-1.5 shadow transition-all">
+                            <i class="fa-solid fa-flag-checkered text-white"></i> Fórmula 1 (Web Oficial) <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-0.5"></i>
+                        </a>
+                        <span class="px-3 py-1.5 bg-emerald-50 text-emerald-900 border border-emerald-200 rounded-xl font-semibold flex items-center gap-1.5">
+                            <i class="fa-solid fa-trophy text-emerald-600"></i> Fútbol en General
+                        </span>
+                    </div>
+                </div>
+
+                <!-- SECCIÓN: REDES SOCIALES -->
+                <div class="mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                    <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Redes Sociales</h3>
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <a href="https://facebook.com" target="_blank" class="flex-1 py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold text-xs shadow transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-facebook text-sm"></i> Facebook
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="flex-1 py-2.5 bg-gradient-to-r from-purple-600 via-pink-600 to-amber-500 hover:opacity-90 text-white rounded-xl font-bold text-xs shadow transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-instagram text-sm"></i> Instagram
+                        </a>
+                        <a href="https://tiktok.com" target="_blank" class="flex-1 py-2.5 bg-slate-900 hover:bg-black text-white rounded-xl font-bold text-xs shadow transition-all flex items-center justify-center gap-2 border border-slate-800">
+                            <i class="fa-brands fa-tiktok text-sm"></i> TikTok
+                        </a>
+                    </div>
+                </div>
+
+                <button class="w-full mt-2 py-3 bg-slate-900 hover:bg-slate-800 text-white rounded-xl font-bold text-sm shadow-md transition-all flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-file-pdf"></i> Descargar Currículum PDF
+                </button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- SCRIPT INTERACTIVO DE NAVEGACIÓN -->
+    <script>
+        function setViewMode(mode) {
+            const grid = document.getElementById('cv-grid');
+            const card1 = document.getElementById('card-v1');
+            const card2 = document.getElementById('card-v2');
+
+            const btnSide = document.getElementById('btn-side');
+            const btnV1 = document.getElementById('btn-v1');
+            const btnV2 = document.getElementById('btn-v2');
+
+            [btnSide, btnV1, btnV2].forEach(btn => {
+                btn.className = "px-3 py-1.5 rounded-lg transition-all text-slate-400 hover:text-white";
+            });
+
+            if (mode === 'side') {
+                grid.className = "grid grid-cols-1 lg:grid-cols-2 gap-8 items-start";
+                card1.classList.remove('hidden');
+                card2.classList.remove('hidden');
+                btnSide.className = "px-3 py-1.5 rounded-lg transition-all bg-indigo-600 text-white shadow";
+            } else if (mode === 'v1') {
+                grid.className = "max-w-2xl mx-auto w-full";
+                card1.classList.remove('hidden');
+                card2.classList.add('hidden');
+                btnV1.className = "px-3 py-1.5 rounded-lg transition-all bg-indigo-600 text-white shadow";
+            } else if (mode === 'v2') {
+                grid.className = "max-w-2xl mx-auto w-full";
+                card1.classList.add('hidden');
+                card2.classList.remove('hidden');
+                btnV2.className = "px-3 py-1.5 rounded-lg transition-all bg-emerald-600 text-white shadow";
+            }
+        }
+    </script>
+</body>
+</html>
